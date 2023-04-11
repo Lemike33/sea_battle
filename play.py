@@ -233,6 +233,8 @@ class User(Player):
             except ValueError:
                 print("Вы ввели не число")
                 continue
+            except EOFError:
+                x, y = randint(1, 6), randint(1, 6)
 
             return Dot(x - 1, y - 1)
 

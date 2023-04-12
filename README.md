@@ -13,4 +13,13 @@
 
 Script location: your script path, one file, Console Based
 
+#### You can start the game using docker images:
+- run commands in terminal: 
+
+docker pull lemike33/sea_battle_game
+
+docker run -it --name <game_name> lemike33/sea_battle_game
+
+
+
 
